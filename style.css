@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cookie', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+header {
+    background-color: #E0D8D8;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+nav {
+    background-color: #644242;
+}
+
+nav ul {
+    display: flex;
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0.5rem 2rem;
+}
+
+nav ul li a {
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    transition: all 0.25s ease;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.headerTitle {
+    font-size: 3rem;
+}
+
+.headerText {
+    font-size: 1rem;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+section.left,
+section.right {
+    padding: 1rem;
+}
+
+section.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.right p {
+    margin: 1rem 0rem;
+}
+
+section.right h4 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+section.left {
+    padding: 2rem;
+}
+section ol{
+    margin: 2rem;
+}
+
+.active {
+    color: white;
+}
+.container{
+    display: flex;
+}
+.redBigText {
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+}
+.center {
+    display: flex;
+    margin: 2rem;
+}
+div.center p {
+    padding: 1rem;
+}
+.ecopage {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.ecopage img {
+    margin: 5rem;
+}
+.group1 {
+    padding: 1rem;
+}
